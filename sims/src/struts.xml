@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="teacher" extends="struts-default">
+		<action name="addTeacher" class="com.flyingfish.sims.teacher.action.TeacherAction" method="addTeacher">
+			<result>/home.jsp</result>
+		</action>
+		<action name="addStudent" class="com.flyingfish.sims.student.action.StudentAction" method="addStudent">
+			<result>/home.jsp</result>
+		</action>
+		<action name="addSubject" class="com.flyingfish.sims.subject.action.SubjectAction" method="addSubject">
+			<result>/home.jsp</result>
+		</action>
+		<action name="addClassroom" class="com.flyingfish.sims.classroom.action.ClassAction" method="addClassroom">
+			<result>/home.jsp</result>
+		</action>
+	</package>
+</struts>    
